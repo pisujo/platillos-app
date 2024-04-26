@@ -1,0 +1,16 @@
+To generate the table try calling the 
+php artisan session:table 
+then, migrate the table 
+php artisan migrate 
+this will create a session table for you.
+
+checar docker service
+docker ps
+
+levantar el proyecto
+docker compose up
+
+docker exec -it platillos_laravel bash
+
+crear controlador
+php artisan make:controller productController --resource
